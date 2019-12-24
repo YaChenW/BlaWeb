@@ -1,0 +1,2582 @@
+
+[Error]:
+	[Error Time]:     2019-12-5 12:6:24
+	[Error Name]:     TypeError
+	[Error Message]:  The "listener" argument must be of type Function. Received type undefined
+	[Error Stack]:  TypeError [ERR_INVALID_ARG_TYPE]: The "listener" argument must be of type Function. Received type undefined
+    at checkListener (events.js:64:11)
+    at _addListener (events.js:226:3)
+    at IncomingMessage.addListener (events.js:284:10)
+    at IncomingMessage.Readable.on (_stream_readable.js:868:35)
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:13:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 12:6:24
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:43:8
+	[Error Name]:     ReferenceError
+	[Error Message]:  body is not defined
+	[Error Stack]:  ReferenceError: body is not defined
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:39:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:43:8
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:23
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:23
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:24
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:24
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:46:27
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:47:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:47:57
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:49:8
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:49:8
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:49:32
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'split' of null
+	[Error Stack]:  TypeError: Cannot read property 'split' of null
+    at Array.setBody (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:24:15)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/middleware/doMiddleware.js:5:24)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 13:49:32
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '<'
+	[Error Stack]:  /Users/floatnight/N2/chatRoom/express/errors/500.html:1
+<!DOCTYPE html>
+^
+
+SyntaxError: Unexpected token '<'
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:28)
+    at doRes (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:77:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:40:13
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:40:31
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:42:16
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:43:21
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:43:23
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:43:58
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:45:58
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:48:54
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:50:6
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:5:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:50:56
+	[Error Name]:     TypeError
+	[Error Message]:  cookString.split is not a function
+	[Error Stack]:  TypeError: cookString.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:7:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:51:52
+	[Error Name]:     TypeError
+	[Error Message]:  cookString.split is not a function
+	[Error Stack]:  TypeError: cookString.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:8:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:52:44
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:8:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:54:44
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:8:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:57:27
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:8:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 16:59:27
+	[Error Name]:     TypeError
+	[Error Message]:  machine.setStatus is not a function
+	[Error Stack]:  TypeError: machine.setStatus is not a function
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:8:13)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:21:11)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/engine.io/lib/server.js:473:22)
+    at Server.<anonymous> (/Users/floatnight/N2/chatRoom/node_modules/socket.io/lib/index.js:343:16)
+    at Server.emit (events.js:210:5)
+    at parserOnIncoming (_http_server.js:745:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:18:52
+	[Error Name]:     TypeError
+	[Error Message]:  cookString.split is not a function
+	[Error Stack]:  TypeError: cookString.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:20:52
+	[Error Name]:     TypeError
+	[Error Message]:  cookString.split is not a function
+	[Error Stack]:  TypeError: cookString.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:20:56
+	[Error Name]:     ReferenceError
+	[Error Message]:  cookString is not defined
+	[Error Stack]:  ReferenceError: cookString is not defined
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:21:28
+	[Error Name]:     TypeError
+	[Error Message]:  cookItem.split is not a function
+	[Error Stack]:  TypeError: cookItem.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:37:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:22:19
+	[Error Name]:     TypeError
+	[Error Message]:  cookItem.split is not a function
+	[Error Stack]:  TypeError: cookItem.split is not a function
+    at Array.setCookie (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:38:25)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:22:51
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:51:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:86:3)
+    at Array.doRouter (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:66:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:22:52
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:51:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:86:3)
+    at Array.doRouter (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:66:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:22:53
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:51:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:86:3)
+    at Array.doRouter (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:66:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:22:54
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controllerviews/login.html'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/middleware/middleware.js
+- /Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:51:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:86:3)
+    at Array.doRouter (/Users/floatnight/N2/chatRoom/express/middleware/middleware.js:66:5)
+    at doMiddleware (/Users/floatnight/N2/chatRoom/express/modules/doMiddleware.js:6:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:20:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:53:57
+	[Error Name]:     ReferenceError
+	[Error Message]:  req is not defined
+	[Error Stack]:  ReferenceError: req is not defined
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:36:42)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:91:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:54:32
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controller/login'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controller/login'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:53:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:92:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-5 17:57:54
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module '/Users/floatnight/N2/chatRoom//controller/login'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  Error: Cannot find module '/Users/floatnight/N2/chatRoom//controller/login'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:54:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:93:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 10:43:37
+	[Error Name]:     ReferenceError
+	[Error Message]:  rootName is not defined
+	[Error Stack]:  ReferenceError: rootName is not defined
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:49:26)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:94:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 10:44:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:92:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 11:12:36
+	[ERROR Function]  	[Error Name]:     TypeError
+	[Error Message]:  The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:27:8)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 11:14:22
+	[ERROR Location]  	[Error Name]:     TypeError
+	[Error Message]:  The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:27:8)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 11:15:1
+	[ERROR Location]  	[Error Name]:     TypeError
+	[Error Message]:  The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:27:8)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 11:34:22
+	[ERROR Location]  	[Error Name]:     TypeError
+	[Error Message]:  The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:27:8)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 11:36:37
+	[ERROR Location]  	[Error Name]:     TypeError
+	[Error Message]:  The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type undefined
+    at Object.openSync (fs.js:432:10)
+    at Object.readFileSync (fs.js:342:35)
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:27:8)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 13:36:1
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot read property 'find' of undefined
+	[Error Stack]:  
+		TypeError: Cannot read property 'find' of undefined
+    at Object.CheckName (/Users/floatnight/N2/chatRoom/controller/userController.js:20:10)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:49)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 13:38:9
+	[Error Name]:     SyntaxError
+	[Error Message]:  Unexpected token '='
+	[Error Stack]:  
+		/Users/floatnight/N2/chatRoom/controller/userController.js:1
+const = User = require('../models/User/User')
+      ^
+
+SyntaxError: Unexpected token '='
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:30)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 14:35:5
+	[Error Name]:     ReferenceError
+	[Error Message]:  requrie is not defined
+	[Error Stack]:  
+		ReferenceError: requrie is not defined
+    at Object.<anonymous> (/Users/floatnight/N2/chatRoom/controller/userController.js:1:18)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:36)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 14:35:38
+	[Error Name]:     ReferenceError
+	[Error Message]:  mongoose is not defined
+	[Error Stack]:  
+		ReferenceError: mongoose is not defined
+    at Object.<anonymous> (/Users/floatnight/N2/chatRoom/models/User/doUser.js:2:1)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (/Users/floatnight/N2/chatRoom/controller/userController.js:1:18)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:36)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 14:36:4
+	[Error Name]:     TypeError
+	[Error Message]:  findUser is not a function
+	[Error Stack]:  
+		TypeError: findUser is not a function
+    at Object.CheckName (/Users/floatnight/N2/chatRoom/controller/userController.js:5:20)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:55)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 14:36:50
+	[Error Name]:     TypeError
+	[Error Message]:  findUser is not a function
+	[Error Stack]:  
+		TypeError: findUser is not a function
+    at Object.CheckName (/Users/floatnight/N2/chatRoom/controller/userController.js:5:20)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:55)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 14:37:17
+	[Error Name]:     TypeError
+	[Error Message]:  The first argument must be one of type string or Buffer. Received type undefined
+	[Error Stack]:  
+		TypeError [ERR_INVALID_ARG_TYPE]: The first argument must be one of type string or Buffer. Received type undefined
+    at write_ (_http_outgoing.js:618:11)
+    at ServerResponse.write (_http_outgoing.js:586:15)
+    at send (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:88:9)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:101:3)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:22:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:2:46
+	[Error Name]:     SyntaxError
+	[Error Message]:  await is only valid in async function
+	[Error Stack]:  
+		/Users/floatnight/N2/chatRoom/controller/userController.js:32
+  let result = await selectUser( { username, password } )
+               ^^^^^
+
+SyntaxError: await is only valid in async function
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:36)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:3:42
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `username` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `username` of 'undefined' or 'null'.
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:31:7)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:55)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:4:14
+	[Error Name]:     ReferenceError
+	[Error Message]:  vercode is not defined
+	[Error Stack]:  
+		ReferenceError: vercode is not defined
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:48:69)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:30)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:4:54
+	[Error Name]:     TypeError
+	[Error Message]:  res.json is not a function
+	[Error Stack]:  
+		TypeError: res.json is not a function
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:36:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:66:30)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:98:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:43:6
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:43:11
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:43:14
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:43:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:45:6
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:45:19
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:45:46
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:47:0
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:47:2
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:47:5
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:47:9
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `nickname` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `nickname` of 'undefined' or 'null'.
+    at Object.register (/Users/floatnight/N2/chatRoom/controller/userController.js:21:7)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:67:55)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 16:47:9
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:1:21
+	[Error Name]:     MongoError
+	[Error Message]:  E11000 duplicate key error collection: BlaChat.users index: username_1 dup key: { : "ssddfdI12ssword" }
+	[Error Stack]:  
+		MongoError: E11000 duplicate key error collection: BlaChat.users index: username_1 dup key: { : "ssddfdI12ssword" }
+    at Function.create (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/operations/common_functions.js:266:39
+    at handler (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/connection/pool.js:414:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:6:15
+	[Error Name]:     MongoError
+	[Error Message]:  E11000 duplicate key error collection: BlaChat.users index: username_1 dup key: { : "ssfdfgsdaord" }
+	[Error Stack]:  
+		MongoError: E11000 duplicate key error collection: BlaChat.users index: username_1 dup key: { : "ssfdfgsdaord" }
+    at Function.create (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/error.js:44:12)
+    at toError (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/utils.js:150:22)
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/operations/common_functions.js:266:39
+    at handler (/Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/sdam/topology.js:971:24)
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/sdam/server.js:496:5
+    at /Users/floatnight/N2/chatRoom/node_modules/mongodb/lib/core/connection/pool.js:414:18
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:13:36
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:13:37
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:13:39
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:13:44
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:96:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:15:41
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:15:43
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:15:45
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 18:15:47
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:19:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:97:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:32:47
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module 'controller/PageController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  
+		Error: Cannot find module 'controller/PageController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:27)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:34:7
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module 'controller/PageController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  
+		Error: Cannot find module 'controller/PageController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:27)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:34:19
+	[Error Name]:     Error
+	[Error Message]:  Cannot find module 'controller/userController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+	[Error Stack]:  
+		Error: Cannot find module 'controller/userController'
+Require stack:
+- /Users/floatnight/N2/chatRoom/express/modules/serverBase.js
+- /Users/floatnight/N2/chatRoom/express/server.js
+- /Users/floatnight/N2/chatRoom/server.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:797:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:690:27)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:27)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:35:12
+	[Error Name]:     ReferenceError
+	[Error Message]:  resData is not defined
+	[Error Stack]:  
+		ReferenceError: resData is not defined
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:70:41)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:36:31
+	[Error Name]:     TypeError
+	[Error Message]:  req.views is not a function
+	[Error Stack]:  
+		TypeError: req.views is not a function
+    at Object.index (/Users/floatnight/N2/chatRoom/controller/pageController.js:9:14)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:66)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:36:40
+	[Error Name]:     TypeError
+	[Error Message]:  req.views is not a function
+	[Error Stack]:  
+		TypeError: req.views is not a function
+    at Object.index (/Users/floatnight/N2/chatRoom/controller/pageController.js:9:14)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:66)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:25:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:37:29
+	[Error Name]:     TypeError
+	[Error Message]:  res.views is not a function
+	[Error Stack]:  
+		TypeError: res.views is not a function
+    at Object.index (/Users/floatnight/N2/chatRoom/controller/pageController.js:9:14)
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:43:66)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:9)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:38:14
+	[Error Name]:     ReferenceError
+	[Error Message]:  type is not defined
+	[Error Stack]:  
+		ReferenceError: type is not defined
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:45:35)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:100:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:38:56
+	[Error Name]:     ReferenceError
+	[Error Message]:  type is not defined
+	[Error Stack]:  
+		ReferenceError: type is not defined
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:46:35)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 19:38:58
+	[Error Name]:     ReferenceError
+	[Error Message]:  type is not defined
+	[Error Stack]:  
+		ReferenceError: type is not defined
+    at findFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:46:35)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:33:0
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:48:1
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:51:22
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:52:13
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:52:15
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 20:56:33
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-0 21:19:25
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/public/images/bgc.jpeg'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/public/images/bgc.jpeg'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:67:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/express/modules/serverBase.js:103:9)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/express/server.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:2
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:9
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:9
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:10
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:10
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:10
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:11
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:11
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:11
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:11
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:12
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:12
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:12
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:12
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:26:12
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:29:18
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 10:29:19
+	[Error Name]:     Error
+	[Error Message]:  ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+	[Error Stack]:  
+		Error: ENOENT: no such file or directory, open '/Users/floatnight/N2/chatRoom/node_modules/blawebviews/login.html'
+    at Object.openSync (fs.js:440:3)
+    at Object.readFileSync (fs.js:342:35)
+    at readFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:62:29)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:26:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:2:31
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:2:31
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:2:35
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:2:35
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:20:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:99:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:3:39
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:3:39
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:32:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:7:49
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:34:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:12
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:12
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:14
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:14
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:18
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:18
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:18
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:18
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:10:18
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:1
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:38
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:53
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:54
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:54
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:54
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:11:55
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:33:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:25:19
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:25:19
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:25:23
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:25:23
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:7
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:7
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:7
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:7
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:7
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:17
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:30:30
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:17
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:19
+	[Error Name]:     TypeError
+	[Error Message]:  Invalid character in header content ["Set-Cookie"]
+	[Error Stack]:  
+		TypeError [ERR_INVALID_CHAR]: Invalid character in header content ["Set-Cookie"]
+    at ServerResponse.setHeader (_http_outgoing.js:488:3)
+    at Object.login (/Users/floatnight/N2/chatRoom/controller/userController.js:50:7)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async findFile (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:44:41)
+    at async webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:101:3)
+    at async Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:51
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:51
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:52
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:52
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:32:57
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
+
+[Error]:
+	[Error Time]:     2019-12-2 14:34:17
+	[Error Name]:     TypeError
+	[Error Message]:  Cannot destructure property `path` of 'undefined' or 'null'.
+	[Error Stack]:  
+		TypeError: Cannot destructure property `path` of 'undefined' or 'null'.
+    at initResObject (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:21:7)
+    at webServerResponse (/Users/floatnight/N2/chatRoom/node_modules/blaweb/modules/serverBase.js:100:3)
+    at Server.requestHandle (/Users/floatnight/N2/chatRoom/node_modules/blaweb/index.js:31:11)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+[Error]: end
