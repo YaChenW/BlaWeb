@@ -7,7 +7,6 @@ const { setStatic } = require( './modules/doStatic' )
 const { writeErrorLog } = require('./log/log')
 const { use } = require('./middleware/middleware')
 const resFun = require( './modules/resFun' )
-const { sendMessage, join, disconnect } = require( '../../controller/messageController' )
 const { doSocketEvent, setSocketEvent } = require( './modules/doSocket' )
 
 const machine = new (require('./modules/statusMachine'))()
