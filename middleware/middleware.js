@@ -38,14 +38,22 @@ let setParams = async function (req, res, next){
 
 let setCookie = function (req, res, next){
   try {
-    res.getHeader('set-cookie')
-    let cookies = req.cookies = {}
-    if (cookItem = req.headers.cookie){
+    let cookies = req.cookies = res.cookies = {}
+    if (cookItem = decodeURIComponent(req.headers.cookie)){
       cookItem = cookItem.split('; ')
       for (let item in cookItem) {
         [arg, value] = cookItem[item].split('=')
+        if( !arg || !value ) break
         cookies[arg] = value
       }
+    }
+    res.cookie = function( key, value ){
+      this.cookies[key] = value
+      let setCookie = []
+      for( let key in this.cookies ){
+        setCookie.push( `${key}=${encodeURIComponent(this.cookies[key])}` )
+      }
+      res.setHeader( 'Set-Cookie', setCookie )
     }
     next()
   } catch (e) {
