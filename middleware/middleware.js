@@ -9,9 +9,9 @@ let setParams = async function (req, res, next){
     let params = req.params = {}
     let args = ""
     if (req.method == 'GET') {
-      let catchArg = new RegExp(/\?.*/)
+      let catchArg = new RegExp(/\?(.*)/)
       args = catchArg.exec(req.url)
-      args = args && args[0].split('&')
+      args = args && args[1]
       req.url = req.url.replace(catchArg, '')
     }
   
