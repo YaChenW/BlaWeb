@@ -2,6 +2,8 @@ const fs = require('fs')
 const mime = require('mime')
 const { roots } = require('../config') 
 const { writeErrorLog } = require('../log/log')
+const { getProxyData } = require('./doProxy') 
+const querystring = require('querystring')
 
 // 解耦
 let resObject = {
@@ -13,23 +15,29 @@ let resObject = {
   func: '',
   data: '',
   type: '',
-  resData: null
+  resData: null,
+  protocol: '',
+  hostname: '',
+  port: ''
 }
 
 let initResObject = function( req, res, code ){
-  let { path, func, resolveMethod } = req.resolveUrlObject 
+  let { path, func, resolveMethod, protocol, hostname, port } = req.resolveUrlObject 
   resObject.req = req
   resObject.res = res
-  resObject.resolveMethod = resolveMethod || 'ERROR'   //  'STATIC' ,  'VIEWS', 'DATA', 'ERROR'
+  resObject.resolveMethod = resolveMethod || 'ERROR'   //  'STATIC' ,  'VIEWS', 'DATA', 'ERROR', 'PROXY'
   resObject.code = code || '200'
   resObject.path = path
   resObject.func = func
+  resObject.protocol = protocol
+  resObject.hostname = hostname
+  resObject.port = port
 }
 
 
 //找文件文件
 let findFile = async function(){
-  let { req, res, code, path, resolveMethod, func } = resObject
+  let { req, res, code, path, resolveMethod, func, hostname, port } = resObject
   switch( resolveMethod ){
     case 'VIEWS':
       resObject.path = roots['ROOT'] + path
@@ -46,7 +54,20 @@ let findFile = async function(){
         resObject.path = resData.path
         findFile()
       }
-      break 
+      break
+    case 'PROXY':
+      resObject.resData = JSON.parse(
+        await getProxyData( 
+          {
+            method: req.method,
+            hostname,
+            port,
+            path,
+          }, 
+          querystring.stringify(req.params) 
+        )
+      )
+      break
     case 'ERROR':
       resObject.path = roots['ERROR'] + `/${code}.html`
       break
@@ -67,6 +88,10 @@ let readFile = async function(){
         resObject.type = mime.getType( path )
         break;
       case 'DATA':
+        resObject.data = JSON.stringify(resData.data)
+        resObject.type = resData.type
+        break
+      case 'PROXY':
         resObject.data = JSON.stringify(resData.data)
         resObject.type = resData.type
         break

@@ -8,6 +8,7 @@ const { writeErrorLog } = require('./log/log')
 const { use } = require('./middleware/middleware')
 const resFun = require( './modules/resFun' )
 const { doSocketEvent, setSocketEvent } = require( './modules/doSocket' )
+const { setProxy } = require( './modules/doProxy' )
 
 const machine = new (require('./modules/statusMachine'))()
 
@@ -21,6 +22,7 @@ server.post = post
 server.setStatic = setStatic
 server.use = use
 server.setSocketEvent = setSocketEvent
+server.setProxy = setProxy
 
 let requestHandle = async function( req, res ){
   try{

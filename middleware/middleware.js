@@ -1,6 +1,6 @@
-const { webServerResponse } = require('../modules/serverBase')
 const static = require('../static/static')
 const router = require('../router/router')
+const proxy = require('../proxy/proxy')
 const writeErrorLog = require( '../log/log' )
 
 
@@ -104,11 +104,41 @@ let doRouter = function (req, res, next) {
   }
 }
 
-let middleware =  [setParams, setCookie, doStatic, doRouter]
+let doProxy = function( req, res, next ){
+  try{
+    let url = req.url
+    let reg = ''
+    for (let key in proxy) {
+      reg = new RegExp('^' + key)
+      if (reg.test(url)) {
+        let path = url.replace(reg, '')
+        reg = new RegExp('(.*)//(.*):(.*)')
+        let [ fullUrl, protocol, hostname, port ] = reg.exec(proxy[key])
+        let resolveMethod = 'PROXY'
+       
+        req.resolveUrlObject = {
+          path,
+          protocol,
+          hostname,
+          port: parseInt(port),
+          resolveMethod,
+        }
+        return
+      }
+    }
+    next() 
+  }catch (e){
+    writeErrorLog(e)
+  }
+}
+
+let middleware =  [setParams, setCookie, doStatic, doRouter, doProxy]
 
 let use = ( func )=>{
   middleware.push( func )
 }
+
+
 
 exports = module.exports = {
   middleware,
